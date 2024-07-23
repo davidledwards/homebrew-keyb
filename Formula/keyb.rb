@@ -6,10 +6,10 @@ class Keyb < Formula
   if OS.linux? || OS.mac?
     if Hardware::CPU.intel?
       url "https://github.com/davidledwards/keyb/releases/download/v" + version + "/keyb-" + version + "-x86_64-unix.tar.gz"
-      sha256 "a93e24bdda12d308a166d30f341896cf015477b9b1924000d2fad951b8f7ad7c"
+      sha256 "2559a838bb15ffa5bd924a41b7cec3de3c45167d9c0c1dfa4892e86b03ba6100"
     elsif Hardware::CPU::arm?
       url "https://github.com/davidledwards/keyb/releases/download/v" + version + "/keyb-" + version + "-aarch64-unix.tar.gz"
-      sha256 "3077885ae2698619650363753e1d6e5238f45d4465c9dcfe839579f14ea762c4"
+      sha256 "568ecbd48008ffcd19d15f69b5c0619217b2900b060ee0a322692ae8cf7eaeb5"
     end
   end
 
